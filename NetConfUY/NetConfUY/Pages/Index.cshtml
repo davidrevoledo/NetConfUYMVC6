@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Prices";
+}
+
+<div class="col-md-10 col-sm-offset-1 main">
+    <div class="row">
+        <div class="clearfix"></div>
+
+        <div class="price-table-overlay">
+            <div class="price-table type2 four">
+                
+                <vc:price-component price="10" best-option="false"></vc:price-component>
+                <vc:price-component price="12" best-option="false"></vc:price-component>
+                <vc:price-component price="19" best-option="true"></vc:price-component>
+                <vc:price-component price="45" best-option="false"></vc:price-component>
+
+            </div>
+        </div>
+    </div>
+</div>
